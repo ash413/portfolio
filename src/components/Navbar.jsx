@@ -7,25 +7,23 @@ const Navbar = () => {
 const [toggleMenu, setToggleMenu] = useState(false);
 
 return (
-    <div className='flex justify-center py-4'>
-        <div className='flex flex-row'>
-            <p className='px-5'><a href="#about">About</a></p>
-            <p className='px-5'><a href="#projects">Projects</a></p>
-            <p className='px-5'><a href="#skills">Skills</a></p>
-            <p className='px-5'><a href="#contact">Contact</a></p>
+    <div className='flex justify-center items-center bg-slate-400 py-4 px-5 '>
+        <div className='hidden md:flex flex-row space-x-10'>
+            <p ><a href="#projects">Projects</a></p>
+            <p ><a href="#skills">Skills</a></p>
+            <p ><a href="#contact">Contact</a></p>
         </div>
-    <div className=''>
+        <div className='md:hidden absolute right-5 '>
         {toggleMenu
         ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
         : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
         }
         { toggleMenu && (
-        <div className=''>
-            <div className=''>
-                <p className='px-5'><a href="#about">About</a></p>
-                <p className='px-5'><a href="#projects">Projects</a></p>
-                <p className='px-5'><a href="#skills">Skills</a></p>
-                <p className='px-5'><a href="#contact">Contact</a></p>
+        <div className='absolute top-0 right-0 text-white bg-slate-400 p-5 mt-16 md:hidden'>
+            <div className='flex flex-col space-y-5'>
+                <p ><a href="#projects">Projects</a></p>
+                <p ><a href="#skills">Skills</a></p>
+                <p ><a href="#contact">Contact</a></p>
             </div>
         </div>
         )}

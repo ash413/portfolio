@@ -1,16 +1,18 @@
 import React from 'react'
-import { Navbar, Home, About, Skills, Projects, Contact } from './components'
+import { Navbar, Home, Skills, Projects, Contact } from './components'
+import { DarkModeProvider } from './components/DarkModeContext'
 
 const App = () => {
 
   return (
     <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <DarkModeProvider >
+        <Navbar />
+        <Home />
+        <Projects />
+        <Skills />
+        <Contact />
+      </DarkModeProvider>
     </div>
   )
 }
