@@ -6,4 +6,5 @@
 
 body {
     font-family: "Reddit Mono", monospace;   
+    scroll-behavior: smooth;
 }
