@@ -3,15 +3,23 @@ import image from '../assets/profilepicture.jpg'
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-//import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
+import { useDarkMode } from '../DarkModeContext';
 
 const Home = () => {
-  //const { isDarkMode, toggleDarkMode } = useDarkMode();
+
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    /*<div className='`mt-24 mb-4 flex justify-center ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`'>*/
     <div className='md:mt-24 mt-16 mb-12 flex flex-col md:flex-row justify-center items-center'>
+      <DarkModeSwitch 
+        className='absolute top-0 left-0 md:ml-8 md:mt-2'
+        checked = {isDarkMode}
+        onChange = {toggleDarkMode}
+        size={32}
+      />
       <div className='md:mr-16 md:mt-18 flex flex-col items-center'>
+
         <p className='my-4 font-extrabold text-4xl text-center md:text-5xl md:pl-6'>VAISHNAVI KADAM</p>
         <p className='my-4 font-bold text-2xl text-center '>FRONT END DEVELOPER</p>
 

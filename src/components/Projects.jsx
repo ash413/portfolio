@@ -21,12 +21,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id='projects' className='m-4 py-12 bg-redish rounded-xl'>
+    <div id='projects' className='m-4 py-12 bg-darkgreen rounded-xl'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <h2 className="text-3xl font-extrabold mb-6">Projects</h2>
         <div className='grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
           {projects.map((project) => (
-            <div key={project.id} className='bg-whitish shadow-md rounded-lg overflow-hidden '>
+            <div key={project.id} className='bg-whitish dark:bg-darkwhitish shadow-md rounded-lg overflow-hidden '>
               <img src={project.image} alt={project.title} className='w-full h-48 object-cover ' />
               <div className='p-6'>
                 <h3 className='text-lg font-semibold '>
