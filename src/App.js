@@ -4,7 +4,7 @@ import { Navbar, Home, Skills, Projects, Contact } from './components'
 const App = () => {
 
   return (
-    <div>
+    <div className='bg-whitish'>
       <Navbar />
       <Home />
       <Projects />

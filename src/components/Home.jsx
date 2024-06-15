@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     /*<div className='`mt-24 mb-4 flex justify-center ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`'>*/
-    <div className='md:mt-24 mt-16 mb-12 flex flex-col md:flex-row justify-center items-center '>
+    <div className='md:mt-24 mt-16 mb-12 flex flex-col md:flex-row justify-center items-center'>
       <div className='md:mr-16 md:mt-18 flex flex-col items-center'>
         <p className='my-4 font-extrabold text-4xl text-center md:text-5xl md:pl-6'>VAISHNAVI KADAM</p>
         <p className='my-4 font-bold text-2xl text-center '>FRONT END DEVELOPER</p>

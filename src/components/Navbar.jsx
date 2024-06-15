@@ -13,7 +13,7 @@ const handleScroll = (targetId) => {
 };
 
 return (
-    <div className='flex justify-center items-center bg-slate-400 py-4 px-5 '>
+    <div className='flex justify-center items-center bg-redish py-4 px-5 '>
         <div className='hidden md:flex flex-row space-x-10'>
             <p ><a href="#projects" onClick={() => handleScroll('projects')}>Projects</a></p>
             <p ><a href="#skills" onClick={() => handleScroll('skills')}>Skills</a></p>
@@ -25,7 +25,7 @@ return (
         : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />
         }
         { toggleMenu && (
-        <div className='absolute top-0 right-0 text-white bg-slate-400 p-5 mt-16 md:hidden'>
+        <div className='absolute top-0 right-0 bg-redish text-white p-5 mt-16 md:hidden'>
             <div className='flex flex-col space-y-5'>
                 <p ><a href="#projects" onClick={() => handleScroll('projects')}>Projects</a></p>
                 <p ><a href="#skills" onClick={() => handleScroll('skills')}>Skills</a></p>

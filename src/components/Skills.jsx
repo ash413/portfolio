@@ -28,14 +28,14 @@ const Skills = () => {
         <h3 className='text-3xl font-extrabold text-gray-900 mb-6'>Skills</h3>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-6'>
           {skillsData.map((skill, index) => (
-            <div key={index} className='flex flex-col p-4 border rounded-lg'>
+            <div key={index} className='flex flex-col p-4 border rounded-lg bg-redish'>
               <div className='flex items-center mb-2'>
-                <skill.icon className='text-2xl mr-2' />
-                <span className='text-xl font-semibold'>{skill.name}</span>
+                <skill.icon className='text-2xl mr-2 ' />
+                <span className='text-xl font-semibold '>{skill.name}</span>
               </div>
               <div className='relative w-full h-4 bg-gray-300 rounded-full'>
                 <div
-                  className='absolute top-0 left-0 h-4 bg-slate-600 rounded-full'
+                  className='absolute top-0 left-0 h-4 bg-darkblueish rounded-full'
                   style={{ width: `${skill.level}%` }}
                 ></div>
               </div>
