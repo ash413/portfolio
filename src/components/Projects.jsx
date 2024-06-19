@@ -1,6 +1,7 @@
 import React from 'react'
 import netflixclone from '../assets/netflixclone.png';
 import pptbuddy from '../assets/pptbuddy.jpeg'
+import hostinger from '../assets/hostinger.'
 
 const projects = [
   {
@@ -11,11 +12,18 @@ const projects = [
     link: "https://github.com/ash413/pptbuddy"
   },
   {
-    id: 3,
+    id: 2,
     title: "Netflix Clone",
     description: "Clone of Netflix - mainly uses react, firebase",
     image: netflixclone,
     link: "https://netflix-react-8aaee.web.app/"
+  },
+  {
+    id: 3,
+    title: "Hosting Website",
+    description: "Website for a hosting ",
+    image: hostinger,
+    link: "https://project2-nexus-one.vercel.app/"
   }
 ];
 
