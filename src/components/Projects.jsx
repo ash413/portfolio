@@ -21,7 +21,7 @@ const projects = [
   {
     id: 3,
     title: "Hosting Website",
-    description: "Website for a hosting ",
+    description: "Website for a hosting company - mainly uses react",
     image: hostinger,
     link: "https://project2-nexus-one.vercel.app/"
   }
