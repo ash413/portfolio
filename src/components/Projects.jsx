@@ -1,7 +1,7 @@
 import React from 'react'
 import netflixclone from '../assets/netflixclone.png';
 import pptbuddy from '../assets/pptbuddy.jpeg'
-import hostinger from '../assets/hostinger.'
+import hostinger from '../assets/hostinger.png'
 
 const projects = [
   {
@@ -9,7 +9,7 @@ const projects = [
     title: "PptBuddy",
     description: "A website which uses python to genrate a ppt out of pdf documents",
     image: pptbuddy,
-    link: "https://github.com/ash413/pptbuddy"
+    link: "https://project3-nexus-silk.vercel.app/"
   },
   {
     id: 2,
