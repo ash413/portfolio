@@ -2,6 +2,7 @@ import React from 'react'
 import netflixclone from '../assets/netflixclone.png';
 import pptbuddy from '../assets/pptbuddy.jpeg'
 import hostinger from '../assets/hostinger.png'
+import tasktide from '../assets/tasktide.png'
 
 const projects = [
   {
@@ -14,16 +15,23 @@ const projects = [
   {
     id: 2,
     title: "Netflix Clone",
-    description: "Clone of Netflix - mainly uses react, firebase",
+    description: "Clone of Netflix - using React.js, Firebase",
     image: netflixclone,
     link: "https://netflix-react-8aaee.web.app/"
   },
   {
     id: 3,
     title: "Hosting Website",
-    description: "Website for a hosting company - mainly uses react",
+    description: "Website for a hosting company - using React.js",
     image: hostinger,
     link: "https://project2-nexus-one.vercel.app/"
+  },
+  {
+    id: 4,
+    title: "TaskTide - a todo app",
+    description: "Website for adding, deleting, marking tasks as completed - using React.js",
+    image: tasktide,
+    link: "https://task-tide-amber.vercel.app/"
   }
 ];
 
