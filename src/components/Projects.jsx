@@ -3,6 +3,9 @@ import netflixclone from '../assets/netflixclone.png';
 import pptbuddy from '../assets/pptbuddy.jpeg'
 import hostinger from '../assets/hostinger.png'
 import tasktide from '../assets/tasktide.png'
+import calcmate from '../assets/calcmate.png'
+import quotequest from '../assets/quotequest.png'
+import taskmaster from '../assets/taskmaster.png'
 
 const projects = [
   {
@@ -32,6 +35,27 @@ const projects = [
     description: "Website for adding, deleting, marking tasks as completed - using React.js",
     image: tasktide,
     link: "https://task-tide-amber.vercel.app/"
+  },
+  {
+    id: 5,
+    title: "CalcMate",
+    description: "Simple calculator app - using JavaScript",
+    image: calcmate,
+    link: "https://calc-mate.vercel.app/"
+  },
+  {
+    id: 6,
+    title: "QuoteQuest",
+    description: "Random quote generator - using JavaScript",
+    image: quotequest,
+    link: "https://quote-quest-two.vercel.app/"
+  },
+  {
+    id: 7,
+    title: "TaskMaster",
+    description: "To-do List - using JavaScript",
+    image: taskmaster,
+    link: "https://task-master-orcin.vercel.app/"
   }
 ];
 
