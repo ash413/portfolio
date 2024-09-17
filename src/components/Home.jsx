@@ -24,14 +24,20 @@ const Home = () => {
         <p className='my-4 font-bold text-2xl text-center '>FRONT END DEVELOPER</p>
 
         <span className='my-4 flex'>
-          <a href="https://twitter.com/vkadam" className='px-8'><FaSquareXTwitter size={32}/></a>
-          <a href="https://github.com/ash413" className='px-8'><FaGithub size={32}/></a>
           <a href="https://www.linkedin.com/in/vaishnavikadam4/" className='px-8'><FaLinkedin size={32}/></a>
+          <a href="https://github.com/ash413" className='px-8'><FaGithub size={32}/></a>
+          <a href="https://twitter.com/vkadam" className='px-8'><FaSquareXTwitter size={32}/></a>
         </span>
 
-        <p className='mt-2 text-center md:mt-4 md:text-left'>Final year engineering student that prioritizes results</p>
-        <p className='text-center md:text-left'>and has a flexible approach to problem-solving.</p> 
-        <p className='text-center md:text-left'>Adept in picking up new skills.</p>
+        <div className='max-w-3xl mx-auto px-4'> 
+          <p classname='mt-2 text-center md: text-left'> Hi! I'm Vaishnavi and I'm a passionate software engineer with a strong background in web development, 
+            data structures, and algorithms. Currently pursuing my Master’s in Computer Science from Syracuse University, 
+            I have hands-on experience with technologies like JavaScript, React, Python, and TypeScript, and 
+            I've worked on various exciting projects, from front-end interfaces to back-end systems. 
+            My goal is to leverage technology to create intuitive, efficient, and impactful solutions. </p>
+            <p className='mt-1'>Welcome to my portfolio, where you can explore my journey, projects, and passion for building scalable and innovative software. </p>
+            <p className='mt-1'>Feel free to connect with me if you share similar interests or have exciting collaboration opportunities! </p>
+        </div>
       </div>
       <div className='w-64 h-64 md:w-96 md:h-96 mt-8 md:mt-0'>
         <img src={image} alt="" className='w-full h-full object-cover rounded-full' />
