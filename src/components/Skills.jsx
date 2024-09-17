@@ -6,9 +6,9 @@ import { FaCss3Alt, FaReact, FaNodeJs, FaPython, FaGithub, FaGitAlt } from "reac
 import { SiExpress, SiMongodb, SiPostgresql, SiFlask } from "react-icons/si";
 
 const skillsData = [
-  { icon: RiJavascriptFill, name: "JavaScript", level: 70 },
+  { icon: RiJavascriptFill, name: "JavaScript", level: 85 },
   { icon: TbBrandCpp, name: "CPP", level: 80 },
-  { icon: FaPython, name: "Python", level: 80 },
+  { icon: FaPython, name: "Python", level: 90 },
   { icon: RiHtml5Fill, name: "HTML5", level: 95 },
   { icon: FaCss3Alt, name: "CSS3", level: 90 },
   { icon: FaReact, name: "React", level: 70 },
