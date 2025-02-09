@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Hero from '@/components/Hero'
 import SkillsGrid from "@/components/SkillsGrid"
 import DarkModeToggle from "@/components/DarkModeToggle"
+import Projects from "@/components/Projects"
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
       <DarkModeToggle />
       <Hero />
       <SkillsGrid />
-
+      <Projects />
     </main>
   )
 }

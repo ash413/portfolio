@@ -3,8 +3,9 @@ import {
     FaReact, FaNode, FaPython, FaJava, FaAws, FaGithub,
     FaHtml5,
   } from 'react-icons/fa';
+  import { IoLogoFirebase } from "react-icons/io5";
   import { 
-    SiTypescript, SiTailwindcss, SiJavascript, SiCplusplus, SiFirebase, 
+    SiTypescript, SiTailwindcss, SiJavascript, SiCplusplus, 
     SiPostgresql, SiMongodb, SiExpress, SiFlask, 
     SiTensorflow, SiPandas
   } from 'react-icons/si';
@@ -35,7 +36,7 @@ import {
       { name: 'Node.js', icon: FaNode, color: '#539E43', category: 'Development' },
       { name: 'Express.js', icon: SiExpress, color: '#000000', category: 'Development' },
       { name: 'Flask', icon: SiFlask, color: '#000000', category: 'Development' },
-      { name: 'Firebase', icon: SiFirebase, color: '#FFCA28', category: 'Development' },
+      { name: 'Firebase', icon: IoLogoFirebase, color: '#FFCA28', category: 'Development' },
       { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791', category: 'Development' },
       { name: 'MongoDB', icon: SiMongodb, color: '#47A248', category: 'Development' },
   
