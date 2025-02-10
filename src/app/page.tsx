@@ -1,10 +1,12 @@
 'use client'
 
-import { motion } from "framer-motion"
 import Hero from '@/components/Hero'
 import SkillsGrid from "@/components/SkillsGrid"
 import DarkModeToggle from "@/components/DarkModeToggle"
 import Projects from "@/components/Projects"
+import ContactCard from '@/components/ContactCard'
+
+import { Toaster } from "react-hot-toast";
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Hero />
       <SkillsGrid />
       <Projects />
+      <ContactCard />
+      < Toaster />
     </main>
   )
 }

@@ -30,10 +30,22 @@ const Hero = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5 }}
-                    className="mt-8 max-w-2xl mx-auto text-lg text-gray-800 dark:text-gray-300"
+                    className="mt-8 max-w-5xl mx-auto text-lg text-gray-800 dark:text-gray-300"
                 >
-                    Hi! I'm Vaishnavi and I'm a passionate software engineer with a strong background in web development, 
-                    data structures, and algorithms. Currently pursuing my Master's in Computer Science from Syracuse University.
+                    <p className="font-bold py-2">👋 Hey, I&apos;m Vaishnavi Kadam! </p>
+
+                    <p className="py-2">I&apos;m a <strong>software engineer</strong> and <strong>full-stack developer</strong> passionate about building 
+                    scalable, user-centric applications. Currently pursuing my <strong>Master&apos;s in Computer Science</strong> at 
+                    Syracuse University, I specialize in <strong>React.js, Node.js, Python</strong>, and cloud technologies like 
+                    <strong>AWS</strong> and <strong>Google Cloud</strong>. My experience includes developing full-stack applications, 
+                    AI-driven projects, and scalable systems, with a strong foundation in <strong>data structures, algorithms, 
+                    and system design</strong>. </p> 
+
+                    <p className="py-2"> I&apos;ve built <strong>Forkfolio</strong>—a social platform for food lovers, and developed <strong>PPTBuddy</strong>, 
+                    an AI-powered PDF-to-PPT converter. Whether it&apos;s crafting <strong>seamless user experiences</strong> or optimizing 
+                    <strong>backend performance</strong>, I love turning ideas into reality.</p>
+
+                    💡 Open to <strong>internships, collaborations, and networking opportunities</strong>—let&apos;s connect! 🚀
                 </motion.p>
             </motion.div>
         </section>

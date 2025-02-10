@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaLink, FaGithub } from "react-icons/fa";
 import { Project } from "@/types/project";
@@ -96,7 +96,7 @@ const Projects = () => {
                     </p>
                 </motion.div>
   
-                <div className="flex justify-center gap-4 mb-12">
+                <div className="flex justify-center gap-4 mb-12 flex-wrap md:flex-nowrap overflow-x-auto">
                     {['all', 'web', 'mobile', 'backend', 'full-stack'].map((category) => (
                     <button
                         key={category}
