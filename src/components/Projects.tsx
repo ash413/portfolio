@@ -6,6 +6,9 @@ import { FaLink, FaGithub } from "react-icons/fa";
 import { Project } from "@/types/project";
 import { projects } from "@/data/projects";
 
+import Image from "next/image";
+
+
 const ProjectCard = ( { project } : { project: Project } ) => {
     const [isHovered, setIsHovered] = useState(false);
 
@@ -20,11 +23,7 @@ const ProjectCard = ( { project } : { project: Project } ) => {
             onMouseLeave={() => setIsHovered(false)}
         >
             <div className="relative h-48 overflow-hidden">
-                <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
+            <Image src={project.image} alt={project.title} width={500} height={300} priority />
                 <div className={`absolute inset-0 bg-black/60 flex items-center justify-center transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
                     <div className="flex gap-4">
                         <a
@@ -84,7 +83,7 @@ const Projects = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
+                    animate={{ opacity:1, y: 0 }}
                     viewport={{ once: true }}
                     className="text-center mb-12"
                 >
