@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { projects } from '../data/projects';
 
-const filters = ['all', 'fullstack', 'frontend', 'backend', 'ml'];
+const filters = ['all', 'fullstack', 'ml'];
 
 export default function Projects() {
   const [active, setActive] = useState('all');
@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <section id="projects" className="px-6 md:px-12 py-24 max-w-5xl mx-auto">
       <div className="flex items-baseline gap-4 mb-12">
-        <span className="font-mono text-green-500 text-xs tracking-widest">02</span>
+        <span className="font-mono text-green-500 text-xs tracking-widest">03</span>
         <span className="font-mono text-xs text-[#ece8e3] uppercase tracking-widest">Selected work</span>
         <div className="flex-1 h-px bg-[#1c1c1e]" />
       </div>

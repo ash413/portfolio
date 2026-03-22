@@ -19,14 +19,34 @@ const skills = [
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
-          <div className="space-y-5 text-[15px] text-[#888680] font-light leading-relaxed">
-            <p>I'm a <strong className="text-[#ece8e3] font-normal">software engineer</strong> and <strong className="text-[#ece8e3] font-normal">full-stack developer</strong> passionate about building things people actually use. I care about both the engineering and the experience — <span className="text-green-500">the system behind the screen and the screen itself</span>.</p>
-            <p>Currently pursuing my <strong className="text-[#ece8e3] font-normal">Master's in Computer Science</strong> at Syracuse University. My background spans full-stack web, backend systems, and a bit of ML on the side.</p>
-            <p>I've built <strong className="text-[#ece8e3] font-normal">Forkfolio</strong> — a social platform for food lovers — and <strong className="text-[#ece8e3] font-normal">PPTBuddy</strong>, an AI-powered PDF-to-PPT converter.</p>
-          </div>
+        <div className="space-y-5 text-[15px] text-[#888680] font-light leading-relaxed">
+          <p>
+            I'm a <strong className="text-[#ece8e3] font-normal">software engineer</strong> and <strong className="text-[#ece8e3] font-normal">full-stack developer</strong> focused on building systems that solve real problems — not just demos. 
+            I care about both the engineering and the experience — <span className="text-green-500">the system behind the screen and the screen itself</span>.
+          </p>
+
+          <p>
+            Currently pursuing my <strong className="text-[#ece8e3] font-normal">Master's in Computer Science</strong> at Syracuse University. 
+            I've worked across startups and industry, building production-ready applications spanning <strong className="text-[#ece8e3] font-normal">backend systems, real-time interactions, and cloud infrastructure</strong>.
+          </p>
+
+          <p>
+            I've built <strong className="text-[#ece8e3] font-normal">Forkfolio</strong> — a scalable, cloud-native recipe platform with AI-powered recommendations — 
+            and developed systems like an <strong className="text-[#ece8e3] font-normal">Excel automation platform</strong> that reduced manual workflows by 40%, and a <strong className="text-[#ece8e3] font-normal">cross-platform mobile app</strong> with real-time interactions and secure session handling.
+          </p>
+        </div>
 
           <div>
-            <div className="font-mono text-[10px] text-[#4a4844] uppercase tracking-widest mb-3">Core stack</div>
+          <div>
+            <div className="font-mono text-[10px] text-[#4a4844] uppercase tracking-widest mb-2">
+              Core stack
+            </div>
+
+            {/* NEW LINE HERE */}
+            <div className="text-[13px] text-[#888680] mb-4 leading-relaxed">
+            I work across the stack, with a focus on building scalable backend systems and high-performance applications.
+            </div>
+
             <div className="grid grid-cols-2 gap-1.5">
               {skills.map(s => (
                 <div key={s.label} className={`skill-item font-mono text-xs px-3 py-2 rounded-sm border flex items-center gap-2 transition-all duration-200
@@ -39,6 +59,7 @@ const skills = [
                 </div>
               ))}
             </div>
+          </div>
           </div>
         </div>
       </section>

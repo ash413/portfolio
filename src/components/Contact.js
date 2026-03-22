@@ -9,7 +9,7 @@ export default function Contact() {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleEmailClick = () => {
-    navigator.clipboard.writeText('vaishnavi.kadam413@gmail.com')
+    navigator.clipboard.writeText('vaishnavikadam.tech@gmail.com')
       .then(() => toast.success('Email copied!'))
       .catch(() => toast.error('Failed to copy email'));
   };
@@ -33,7 +33,7 @@ export default function Contact() {
       }} />
 
       <div className="flex items-baseline gap-4 mb-12">
-        <span className="font-mono text-green-500 text-xs tracking-widest">03</span>
+        <span className="font-mono text-green-500 text-xs tracking-widest">04</span>
         <span className="font-mono text-xs text-[#ece8e3] uppercase tracking-widest">Let's connect</span>
         <div className="flex-1 h-px bg-[#1c1c1e]" />
       </div>
@@ -58,7 +58,7 @@ export default function Contact() {
               <p className="font-mono text-xs text-[#4a4844] uppercase tracking-widest mb-5">Software Engineer</p>
               <div className="flex items-center gap-2 font-mono text-xs text-[#4a4844]">
                 <LuHeadphones className="w-3.5 h-3.5" />
-                <span>Currently listening to: Lo-fi Coding Mix</span>
+                <span>Currently listening to: Bollywood 00's romantic mix</span>
               </div>
               <p className="font-mono text-[10px] text-[#2a2826] mt-5 tracking-wider">Click to connect →</p>
             </div>
