@@ -10,11 +10,11 @@ import useTheme from './hooks/useTheme';
 
 
 export default function App() {
-  const { mode, setMode, resolvedTheme } = useTheme();
+  const { mode, setMode } = useTheme();
 
   return (
     <>
-      <Cursor resolvedTheme={resolvedTheme} />
+      <Cursor />
       <Navbar mode={mode} setMode={setMode} />
       <main className="bg-[var(--bg)] text-[var(--text)]">
         <Hero />

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-export default function Cursor({ resolvedTheme }) {
+export default function Cursor() {
   const cursorRef = useRef(null);
 
   useEffect(() => {
