@@ -3,7 +3,7 @@ export default function Hero() {
       <section id="hero" className="min-h-screen flex flex-col justify-center px-6 md:px-12 pt-28 pb-16 max-w-5xl mx-auto relative">
         <div className="flex items-center gap-3 mb-7">
           <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-          <span className="font-mono text-green-500 text-xs uppercase tracking-widest">Open to Work!</span>
+          <span className="font-mono text-green-500 text-xs uppercase tracking-widest">OPEN TO SOFTWARE ENGINEERING ROLES!</span>
         </div>
 
         <h1 className="text-[clamp(40px,8vw,96px)] font-light text-[#ece8e3] leading-none tracking-tight mb-3">

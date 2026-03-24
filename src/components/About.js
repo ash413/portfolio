@@ -1,12 +1,12 @@
 const skills = [
-    { label: 'Python', hl: true }, { label: 'React', hl: true },
-    { label: 'Node.js', hl: true }, { label: 'TypeScript', hl: true },
+    { label: 'Python', hl: true }, { label: 'TypeScript', hl: true },
+    { label: 'MongoDB', hl: true }, { label: 'AWS', hl: true },
     { label: 'JavaScript' }, { label: 'Java' },
-    { label: 'C++' }, { label: 'PostgreSQL' },
-    { label: 'MongoDB' }, { label: 'AWS' },
-    { label: 'Google Cloud' }, { label: 'Docker' },
-    { label: 'Flask' }, { label: 'Express.js' },
-    { label: 'TensorFlow' }, { label: 'Pandas' },
+    { label: 'Go' }, { label: 'PostgreSQL' },
+    { label: 'React' }, { label: 'Next.js' },
+    { label: 'Node' }, { label: 'Express.js' },
+    { label: 'Docker' }, { label: 'Kubernetes' },
+    { label: '' }, { label: 'Git' },
   ];
   
   export default function About() {
@@ -21,18 +21,19 @@ const skills = [
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
         <div className="space-y-5 text-[15px] text-[#888680] font-light leading-relaxed">
           <p>
-            I'm a <strong className="text-[#ece8e3] font-normal">software engineer</strong> and <strong className="text-[#ece8e3] font-normal">full-stack developer</strong> focused on building systems that solve real problems — not just demos. 
+            I'm a <strong className="text-[#ece8e3] font-normal">software engineer</strong> and <strong className="text-[#ece8e3] font-normal">full-stack developer</strong> focused on building systems that solve real problems — not just demos.
             I care about both the engineering and the experience — <span className="text-green-500">the system behind the screen and the screen itself</span>.
           </p>
 
           <p>
-            Currently pursuing my <strong className="text-[#ece8e3] font-normal">Master's in Computer Science</strong> at Syracuse University. 
-            I've worked across startups and industry, building production-ready applications spanning <strong className="text-[#ece8e3] font-normal">backend systems, real-time interactions, and cloud infrastructure</strong>.
+            Currently pursuing my <strong className="text-[#ece8e3] font-normal">Master's in Computer Science</strong> at Syracuse University.
+            My work spans <strong className="text-[#ece8e3] font-normal">full-stack applications, backend systems, cloud infrastructure, and AI-powered products</strong>.
           </p>
 
           <p>
-            I've built <strong className="text-[#ece8e3] font-normal">Forkfolio</strong> — a scalable, cloud-native recipe platform with AI-powered recommendations — 
-            and developed systems like an <strong className="text-[#ece8e3] font-normal">Excel automation platform</strong> that reduced manual workflows by 40%, and a <strong className="text-[#ece8e3] font-normal">cross-platform mobile app</strong> with real-time interactions and secure session handling.
+            I've built projects like <strong className="text-[#ece8e3] font-normal">Forkfolio</strong>, a cloud-native recipe platform with personalized recommendations,
+            <strong className="text-[#ece8e3] font-normal"> Income Firewall</strong>, a fintech product for managing irregular income,
+            and <strong className="text-[#ece8e3] font-normal">TaxRadar</strong>, an AI-powered deduction intelligence tool for freelancers and small businesses.
           </p>
         </div>
 
