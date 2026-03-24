@@ -77,7 +77,7 @@ export default function Projects() {
       </div>
 
       <div className="flex items-center gap-3 px-5 py-4 border border-[var(--border)] rounded-sm bg-[var(--surface)]">
-        <span className="font-mono text-[10px] text-green-500 flex-shrink-0">// note</span>
+        <span className="font-mono text-[10px] text-green-500 flex-shrink-0">{'// note'}</span>
         <span className="font-mono text-xs text-[var(--text-dim)]">
           ML projects don&apos;t have live links yet — GitHub repos linked where available.
         </span>
