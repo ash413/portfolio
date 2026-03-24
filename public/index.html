@@ -25,6 +25,25 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Vaishnavi Kadam's Portfolio</title>
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('vk-theme-mode');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = 'dark';
+    
+          if (saved === 'light') theme = 'light';
+          else if (saved === 'dark') theme = 'dark';
+          else if (saved === 'auto') theme = prefersDark ? 'dark' : 'light';
+    
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

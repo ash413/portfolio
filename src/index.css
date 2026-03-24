@@ -4,10 +4,100 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap');
 
-* { cursor: none; }
-::-webkit-scrollbar { width: 3px; }
-::-webkit-scrollbar-track { background: #080808; }
-::-webkit-scrollbar-thumb { background: #16a34a; border-radius: 2px; }
+:root {
+  --accent: #22c55e;
 
-html { scroll-behavior: smooth; }
-body { background: #080808; }
+  /* dark fallback */
+  --bg: #080808;
+  --surface: #0d0d0e;
+  --surface-2: #111113;
+  --border: #1c1c1e;
+  --border-strong: #242428;
+
+  --text: #ece8e3;
+  --text-muted: #b3aea7;
+  --text-dim: #8b867f;
+  --text-faint: #5f5a54;
+
+  --accent-soft: rgba(34, 197, 94, 0.12);
+  --accent-soft-border: rgba(34, 197, 94, 0.25);
+}
+
+html[data-theme='dark'] {
+  --bg: #080808;
+  --surface: #0d0d0e;
+  --surface-2: #111113;
+  --border: #1c1c1e;
+  --border-strong: #242428;
+
+  --text: #ece8e3;
+  --text-muted: #b3aea7;
+  --text-dim: #8b867f;
+  --text-faint: #5f5a54;
+
+  --accent-soft: rgba(34, 197, 94, 0.12);
+  --accent-soft-border: rgba(34, 197, 94, 0.25);
+}
+
+html[data-theme='light'] {
+  --bg: #f8f7f4;
+  --surface: #f1efe9;
+  --surface-2: #ebe8e1;
+  --border: #d8d2c8;
+  --border-strong: #c9c2b7;
+
+  --text: #161514;
+  --text-muted: #44403b;
+  --text-dim: #6b645c;
+  --text-faint: #8a837a;
+
+  --accent-soft: rgba(34, 197, 94, 0.10);
+  --accent-soft-border: rgba(34, 197, 94, 0.30);
+}
+
+* {
+  cursor: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+#root {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #16a34a;
+  border-radius: 2px;
+}
+
+::selection {
+  background: rgba(34, 197, 94, 0.22);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
