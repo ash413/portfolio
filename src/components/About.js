@@ -2,9 +2,11 @@ const skills = [
   { label: 'Python', hl: true }, { label: 'TypeScript', hl: true },
   { label: 'MongoDB', hl: true }, { label: 'AWS', hl: true },
   { label: 'JavaScript' }, { label: 'Java' },
-  { label: 'Go' }, { label: 'PostgreSQL' },
+  { label: 'Go' }, { label: 'SQL' },
+  { label: 'PostgreSQL' }, { label: 'Redis' },
   { label: 'React' }, { label: 'Next.js' },
-  { label: 'Node.js' }, { label: 'Express.js' },
+  { label: 'Node.js' }, { label: 'React Native' },
+  { label: 'REST API' }, { label: 'GraphQL' },
   { label: 'Docker' }, { label: 'Kubernetes' },
   { label: 'CI/CD' }, { label: 'Git' },
 ];
@@ -21,19 +23,18 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
         <div className="space-y-5 text-[15px] text-[var(--text-muted)] font-normal leading-relaxed">
           <p>
-            I'm a <strong className="text-[var(--text)] font-medium">software engineer</strong> and <strong className="text-[var(--text)] font-medium">full-stack developer</strong> focused on building systems that solve real problems — not just demos.
-            I care about both the engineering and the experience — <span className="text-green-500">the system behind the screen and the screen itself</span>.
+          I'm a software engineer focused on building systems that solve real problems — not just demos. 
+          I care about both the engineering and the experience — the system behind the screen and the screen itself.
           </p>
 
           <p>
-            Currently pursuing my <strong className="text-[var(--text)] font-medium">Master&apos;s in Computer Science</strong> at Syracuse University.
-            My work spans <strong className="text-[var(--text)] font-medium">full-stack applications, backend systems, cloud infrastructure, and AI-powered products</strong>.
+          Currently a Software Engineer at iConsult Collaborative, where I'm building a desktop automation platform (Electron, React, Node.js) and a cross-platform mobile app from the ground up. 
+          Previously at D&D Motor Systems, I led a legacy PHP-to-React/Next.js migration and shipped AWS infrastructure, a real-time analytics dashboard, and an AI-powered support assistant.
           </p>
 
           <p>
-            I&apos;ve built projects like <strong className="text-[var(--text)] font-medium">Forkfolio</strong>, a cloud-native recipe platform with personalized recommendations,
-            <strong className="text-[var(--text)] font-medium"> Income Firewall</strong>, a fintech product for managing irregular income,
-            and <strong className="text-[var(--text)] font-medium">TaxRadar</strong>, an AI-powered deduction intelligence tool for freelancers and small businesses.
+          I'm finishing my Master's in Computer Science at Syracuse University (May 2026). 
+          Outside of work, I've built Forkfolio, a cloud-native recipe platform serving 1,000+ concurrent users with AI-powered recommendations, and TaxRadar, an AI-powered deduction tool for freelancers — and won the WiCHacks Hackathon at RIT for an AI-driven financial risk analysis tool.
           </p>
         </div>
 

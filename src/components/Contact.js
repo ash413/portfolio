@@ -16,8 +16,8 @@ export default function Contact() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/vaishnavikadam_resume_fulltime.pdf';
-    link.setAttribute('download', 'vaishnavikadam_resume_fulltime.pdf');
+    link.href = '/vaishnavikadam_resume.pdf';
+    link.setAttribute('download', 'vaishnavikadam_resume.pdf');
     link.setAttribute('target', '_blank');
     document.body.appendChild(link);
     link.click();
@@ -78,7 +78,7 @@ export default function Contact() {
 
               <div className="flex items-center gap-2 font-mono text-xs text-[var(--text-dim)]">
                 <LuHeadphones className="w-3.5 h-3.5" />
-                <span>Currently listening to: Bollywood 00&apos;s romantic mix</span>
+                <span>Currently listening to: English 2000&apos;s hits</span>
               </div>
 
               <p className="font-mono text-[10px] text-[var(--text-dim)] mt-5 tracking-wider">
