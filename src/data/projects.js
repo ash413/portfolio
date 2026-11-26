@@ -44,4 +44,13 @@ export const projects = [
     type: 'ml',
     link: '#',
   },
+  {
+    id: '06',
+    name: 'FulfillX',
+    desc: 'A microservices-based order processing system built using Java and Spring Boot, with event-driven communication through Apache Kafka. Designed independent services for order management, inventory reservations, and simulated payment processing, using PostgreSQL for persistence, Redis for request idempotency, and transactional outbox patterns to coordinate asynchronous workflows and handle failures reliably.',
+    tags: ['Java', 'Spring Boot', 'Kafka', 'PostgreSQL', 'Redis', 'Docker'],
+    primaryTags: ['Java', 'Spring Boot'],
+    type: 'fullstack',
+    link: 'https://github.com/ash413/FulfillX',
+  },
 ];

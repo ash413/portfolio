@@ -25,8 +25,7 @@ export default function Hero() {
           </div>
 
           <p className="text-base text-[var(--text-muted)] max-w-lg leading-relaxed font-normal mb-11">
-          I build full-stack applications that actually get used — from desktop automation platforms and production-ready mobile apps to cloud-native systems serving real users. 
-          I'm finishing my Master's in Computer Science at Syracuse University (May 2026), with experience shipping products across startups and industry — working with React, Node.js, Python, AWS, and AI-powered systems.
+          I build full-stack applications that solve real problems — from AI-powered mortgage technology and underwriting systems to cloud-native platforms and distributed services. I'm a Software Engineer at CHER and hold a Master's in Computer Science from Syracuse University. My work spans React, Next.js, Python, FastAPI, PostgreSQL, AWS, and AI-integrated systems.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-10">

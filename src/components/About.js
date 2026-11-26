@@ -23,18 +23,15 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
         <div className="space-y-5 text-[15px] text-[var(--text-muted)] font-normal leading-relaxed">
           <p>
-          I'm a software engineer focused on building systems that solve real problems — not just demos. 
-          I care about both the engineering and the experience — the system behind the screen and the screen itself.
+          I'm a software engineer focused on building systems that solve real problems — not just demos. I care about both the engineering behind a product and the experience people have using it.
           </p>
 
           <p>
-          Currently a Software Engineer at iConsult Collaborative, where I'm building a desktop automation platform (Electron, React, Node.js) and a cross-platform mobile app from the ground up. 
-          Previously at D&D Motor Systems, I led a legacy PHP-to-React/Next.js migration and shipped AWS infrastructure, a real-time analytics dashboard, and an AI-powered support assistant.
+          Currently, I work at CHER, building features for an AI-powered mortgage platform. My work spans backend document processing, income-underwriting workflows, and interactive frontend tools used by loan officers. Previously, I worked at iConsult Collaborative and D&D Motor Systems, developing desktop automation tools, mobile applications, modern web platforms, and AWS-hosted services.
           </p>
 
           <p>
-          I'm finishing my Master's in Computer Science at Syracuse University (May 2026). 
-          Outside of work, I've built Forkfolio, a cloud-native recipe platform serving 1,000+ concurrent users with AI-powered recommendations, and TaxRadar, an AI-powered deduction tool for freelancers — and won the WiCHacks Hackathon at RIT for an AI-driven financial risk analysis tool.
+          I hold a Master's in Computer Science from Syracuse University and am an AWS Certified Solutions Architect – Associate. Outside of work, I've built projects involving distributed systems, AI-powered applications, financial technology, and cloud infrastructure, including FulfillX and Forkfolio. I also won WiCHacks 2026 for Income Firewall, an AI-driven financial risk analysis project.
           </p>
         </div>
 
